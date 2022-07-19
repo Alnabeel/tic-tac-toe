@@ -1,0 +1,41 @@
+.col-1{
+    height: 65px;
+    width: 65px;
+    cursor: pointer;
+}
+.circle{
+    
+    background-image: url(https://www.freepnglogos.com/uploads/circle-png/red-round-clip-art-download-12.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 30px;
+   pointer-events: none;
+}
+.cross{
+    
+    background-image: url(https://www.freeiconspng.com/uploads/black-x-png-32.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 30px;
+    pointer-events: none;
+    
+}
+body{
+    /* background-image: url(https://media.istockphoto.com/photos/glowing-sun-on-orange-sky-picture-id1257088461?b=1&k=20&m=1257088461&s=170667a&w=0&h=FSiryAD8IrzBXvSlECm40TlH1IN36ww8bofxoIg49BU=); */
+    height: 100vh;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+.col{
+    height: 100%;
+}
+.display{
+    background-color: green;
+}
+#winner{
+    font-size: 30px;
+}
+#player{
+    font-size: 20px;
+    color: red;
+}
