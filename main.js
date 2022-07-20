@@ -1,6 +1,7 @@
 let column=document.querySelectorAll(".col")//declare variable for Dom Element for rows and column
-let changePlayer=document.getElementById("player")// declare variable for DOM Element to show who's Turn
+let changePlayer=document.getElementById("player") // declare variable for DOM Element to show who's Turn
 let winner=document.getElementById("winner")// declare variable for Dom Element to show winner
+let btn= document.querySelector(".btn")
 turnChange=true// To check Who's turn
 changePlayer.innerHTML="Start with Player X"// starting player Indication
 let winningPosibility=[
@@ -45,6 +46,7 @@ function winning(){
              winner.innerHTML="Player X Won"// to display winner "X"
              gameOver=true // To stop the game 
              changePlayer.innerHTML="" // to empty Dom element or not display the player turn
+             btn.textContent="Play Again"
          }
          else if( //check all winning position in winningposibility "O"
               winningPosibility[0] + winningPosibility[1]+ winningPosibility[2]==-3 ||
@@ -61,11 +63,15 @@ function winning(){
              winner.innerHTML="Player O Won" //to display winner "O"
              changePlayer.innerHTML="" // to empty Dom element or not display the player turn
              gameOver=true // to stop the game
+             btn.textContent="Play Again"
+
 
             }else if(turnCount==9){ // To check game is Draw
             
                 winner.innerHTML="Match Draw.."// to display  match Draw
                 changePlayer.innerHTML="" //to empty Dom element or not display the player turn
+                btn.textContent="Play Again"
+
             }
 }
 function restart(){ // to Restart the game
@@ -83,5 +89,7 @@ function restart(){ // to Restart the game
      value.classList.remove("circle")
     })
     changePlayer.innerHTML="Start with Player X" // to set starting position
+    btn.textContent="Reset"
+
     
 }
