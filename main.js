@@ -1,4 +1,4 @@
-let column = document.querySelectorAll(".col")//declare variable for Dom Element for rows and column
+let column = document.querySelectorAll(".col-1")//declare variable for Dom Element for rows and column
 let changePlayer = document.getElementById("player")// declare variable for DOM Element to show who's Turn
 let winner = document.getElementById("winner")// declare variable for Dom Element to show winner
 let btn = document.querySelector(".btn")

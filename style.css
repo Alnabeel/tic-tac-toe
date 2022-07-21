@@ -1,41 +1,48 @@
-.col-1{
-    height: 65px;
+.col-1 {
+    height: 80px;
     width: 65px;
     cursor: pointer;
 }
-.circle{
+
+.circle {
     
-    background-image: url(https://www.freepnglogos.com/uploads/circle-png/red-round-clip-art-download-12.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding: 30px;
-   pointer-events: none;
-}
-.cross{
-    
-    background-image: url(https://www.freeiconspng.com/uploads/black-x-png-32.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+
+    background-image: url(https://www.downloadclipart.net/thumb/22241-red-circle-vector-thumb.png);
+    background-repeat: round;
     padding: 30px;
     pointer-events: none;
-    
 }
-body{
-    /* background-image: url(https://media.istockphoto.com/photos/glowing-sun-on-orange-sky-picture-id1257088461?b=1&k=20&m=1257088461&s=170667a&w=0&h=FSiryAD8IrzBXvSlECm40TlH1IN36ww8bofxoIg49BU=); */
+
+.cross {
+
+    background-image: url(https://www.freeiconspng.com/uploads/black-x-png-32.png);
+    background-repeat: round;
+    /* background-size: contain; */
+    padding: 30px;
+    pointer-events: none;
+
+}
+
+.blur{
     height: 100vh;
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
+    background-image: radial-gradient(circle, #d3d3e5, #b8aed9, #a886c8, #9f5baf, #99228f);
+
 }
-.col{
-    height: 100%;
-}
-.display{
+
+
+
+.display {
     background-color: green;
 }
-#winner{
+
+#winner {
     font-size: 30px;
 }
-#player{
+
+#player {
     font-size: 20px;
-    color: red;
+    color: rgb(8, 8, 8);
+}
+.btn{
+    padding-bottom: 100px;
 }
